@@ -14,7 +14,7 @@ public class Main {
         Piece[] board = new Piece[64];
         initializeSide(board, 0, 1, false);
         initializeSide(board, 7, 6, true);
-        printer.printBoard(board);
+        printer.drawBoard(board);
     }
 
     public static void initializeSide(Piece[] board, int baseRowIndex, int pawnRowIndex, boolean isWhite) {

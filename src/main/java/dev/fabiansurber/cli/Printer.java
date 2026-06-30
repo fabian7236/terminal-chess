@@ -8,7 +8,7 @@ public class Printer {
 
     private final int BOARD_DIMENSION = 8;
 
-    public void printBoard(Piece[] board) {
+    public void drawBoard(Piece[] board) {
         StringJoiner line = new StringJoiner(" ");
         line.add(BOARD_DIMENSION + "");
         for (int i = 0; i < Math.pow(BOARD_DIMENSION, 2); i++) {
