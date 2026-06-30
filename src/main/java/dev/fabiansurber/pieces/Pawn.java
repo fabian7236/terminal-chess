@@ -2,15 +2,14 @@ package dev.fabiansurber.pieces;
 
 import java.util.ArrayList;
 
-public class King extends Piece {
+public class Pawn extends Piece {
 
-    public King(boolean isWhite) {
-        super(isWhite, isWhite ? "♔" : "♚");
+    public Pawn(boolean isWhite) {
+        super(isWhite, isWhite ? "♙" : "♟");
     }
 
     @Override
     public ArrayList<Integer> getAvailableSquares(int currenSquareIndex) {
-
         return null;
     }
 }
